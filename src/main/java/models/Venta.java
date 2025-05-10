@@ -22,7 +22,8 @@ public class Venta {
     public String toString() {
         return "ServicioVentas{" +
                 "montoventa=" + montoventa +
-                ", vehiculo=" + codigovehiculo.getCódigo() + codigovehiculo.getMarca() +
+                ", vehiculo=" + codigovehiculo.getCódigo() +
+                ", marca = " + codigovehiculo.getMarca() +
                 ", apellidoCliente='" + apellidoCliente + '\'' +
                 ", nombreCliente='" + nombreCliente + '\'' +
                 ", documentoCliente='" + documentoCliente + '\'' +
