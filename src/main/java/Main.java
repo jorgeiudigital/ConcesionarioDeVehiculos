@@ -29,7 +29,7 @@ public class Main {
             System.out.println("7. Salir");
             System.out.print("Seleccione una opción: ");
             opcion = sc.nextInt();
-            sc.nextLine(); // Limpiar el buffer
+            sc.nextLine();        // Limpiar el buffer
 
             switch (opcion) {
                 case 1:
